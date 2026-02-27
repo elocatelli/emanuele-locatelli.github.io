@@ -10,17 +10,14 @@
   <header>
     <h1><a href="/">{{ site.title }}</a></h1>
     <p>{{ site.description }}</p>
-  </header>
+</header>
 
-  <nav>
-      <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/projects">Projects</a></li>
-      </ul>
-  </nav>
-
+  <nav class="navbar">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}">{{ item.name }}</a>
+  {% endfor %}
+ </nav>
+  
   <main>
     {{ content }}
   </main>

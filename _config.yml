@@ -1,0 +1,12 @@
+title: "My Personal Website"
+description: "Welcome to my Jekyll-powered site!"
+author: "Your Name"
+
+# Theme (GitHub Pages–compatible)
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

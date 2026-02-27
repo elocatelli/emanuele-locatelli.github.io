@@ -3,10 +3,11 @@ description: "Welcome to my Jekyll-powered site!"
 author: "Your Name"
 
 # Theme (GitHub Pages–compatible)
-theme: minima
+remote_theme: pages-themes/modernist@v0.2.0
 
 # Build settings
 markdown: kramdown
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag

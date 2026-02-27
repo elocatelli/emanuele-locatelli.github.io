@@ -3,7 +3,7 @@ description: "Welcome to my Jekyll-powered site!"
 author: "Your Name"
 
 # Theme (GitHub Pages–compatible)
-remote_theme: pages-themes/merlot@v0.2.0
+remote_theme: pages-themes/minimal@v0.2.0
 
 # Build settings
 markdown: kramdown

@@ -1,17 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+  background: #fafafa;
+}
+
+/* Navigation Bar */
 .navbar {
   display: flex;
-  gap: 1rem;
-  margin: 0.5rem 0 2rem 0;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid #e0e0e0;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #0366d6;
   font-weight: bold;
+  color: #007acc;
 }
 
 .navbar a:hover {
   text-decoration: underline;
+}
+
+/* Headings */
+h1, h2 {
+  color: #333;
+}
+
+section {
+  margin-top: 2rem;
 }
